@@ -1,0 +1,157 @@
+#odlike {
+background-color: #fff;
+position:relative;
+}
+
+.container-fluid{
+  padding:7% 15%;
+}
+
+#title .container-fluid{
+  padding:2% 15% 8%;
+  text-align:left;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.big-heading {
+  margin-top:5rem;
+  font-size:3.5em;
+  line-height:1.5;
+  color:#fff;
+  font-weight: bold;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+}
+
+.centriran {
+  padding:5%;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size:2rem;
+  font-weight:bold;
+}
+
+.navbar {
+  padding:0 0 5rem;
+}
+
+.nav-item {
+  padding:0 18px;
+}
+
+.nav-link {
+  font-size:1.2rem;
+  font-family:'Montserrat-100',sans-serif;
+}
+
+.title-image {
+  width:25%;
+  border-radius: 10%;
+  position:absolute;
+  right:20%;
+  top:27%;
+}
+
+.ikone {
+  color:#EF8172;
+}
+.ikone:hover {
+color:#FF4C68;
+}
+
+.paragraf {
+  color:#8F8F8F;
+}
+
+#projekti {
+ background-color:#EF8172;
+  }
+
+.projekti-text {
+  font-size:2.5rem;
+  line-height: 1.5;
+ padding-top: 2rem;
+}
+.projekti-image {
+border-radius: 100%;
+width:50%;
+margin:20px;
+  }
+
+.section-heading {
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+#tehnologije {
+    background-color:#EF8172;
+    padding-bottom:3%;
+  }
+
+.tehnologije-logo {
+  width:10%;
+  margin:20px 20px 15px;
+}
+
+.cijene {
+padding:3% 2%;
+}
+
+#dodatne {
+  padding:100px;
+}
+
+@media (max-width:1028px){
+  .title-image {
+    position:absolute;
+    right:-5%;
+    width:50%;   
+  }
+  
+.big-heading {
+    position:relative;
+    right:15%;
+    margin-top:1rem;
+    font-size:3rem;
+    line-height:1.5;
+    color:#fff;
+    font-weight: bold;
+  }
+  
+ #title {
+    text-align:center;
+  }
+}
+
+#footer {
+  padding-top: 2rem;
+  background-color:#fff;
+}
+.razmak {
+  margin:20px 10px;
+}
+.odlikeNaslov {
+  font-size:1.5rem;
+}
+
+.colored-section{
+    background-color:#FF4C68;
+    color:#fff;
+}
+
+.white-section{
+background-color: #fff;
+}
